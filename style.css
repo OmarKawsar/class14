@@ -1,0 +1,44 @@
+#division1{ 
+    height: 200px;
+    border: 10px solid lawngreen; 
+    background-image:url(images/eggs.jpg);
+    background-repeat: no-repeat; 
+    background-size: 150px 150px;
+    background-clip:border-box;
+} 
+#division2{
+    border: 10px dotted lawngreen;
+        background-color:lavender;
+    padding: 20px;
+    background-clip: padding-box;
+} 
+#division3{
+    border: 10px solid lawngreen;
+        background-color:lavender;
+    padding: 20px;
+    background-clip: content-box;
+}  
+#division4{
+   height: 300px;
+    background-image: url(images/car1.jpg),url(images/car2.jpg),url(images/car3.jpg);
+     background-repeat: no-repeat;  
+       background-size: 150px 150px;
+    background-position:0px 0px,150px 0px,300px 0px ;
+}  
+#division4 p{
+    color: red;
+}
+
+#division5{
+   height: 300px;
+    width: 200px;
+    border: 4px solid black;  
+    background-color: darkseagreen;
+    
+} 
+p{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
